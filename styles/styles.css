@@ -2,6 +2,10 @@ body {
   font-family: Work Sans;
 }
 
+.logo-text{
+font-size: 2.8125rem;
+font-weight: 700;
+}
 .btn-primary {
   border: none;
   color: #fff;
@@ -21,6 +25,15 @@ body {
   gap: 0.625rem;
   border-radius: 3rem;
   background: #4ec5f7;
+}
+.c-btn {
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    background: none;
+}
+.c-btn:hover{
+    border: #f948b2 solid 2px;
 }
 
 .section-title {
@@ -127,4 +140,25 @@ nav a {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 10rem;
+    background: #0b0223;
+    color: #fff;
+    margin-top: 2rem;
+}
+.footer-link {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.footer-link a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 2rem;
+}
+footer i {
+    font-size: 1.5rem;
 }
