@@ -86,10 +86,16 @@ nav a {
 
 
 /* Game Gallery */
-.game-gallery{
+.game-gallery {
     text-align: center;
 }
+
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 5rem 10rem;
+    text-align: left;
+}
+.card-paragraph {
+    width: 18rem;
 }
