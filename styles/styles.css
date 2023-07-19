@@ -114,3 +114,17 @@ nav a {
     top :-13rem;
     right: 25rem;
 }
+
+/* category */
+.category{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 13rem;
+}
+.category-container-1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
