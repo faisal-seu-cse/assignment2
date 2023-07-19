@@ -99,3 +99,18 @@ nav a {
 .card-paragraph {
     width: 18rem;
 }
+/* Play Instant */
+.play-instant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 12rem;
+    text-align: right;
+    gap: 13rem
+}
+
+.play-small-img {
+    position: relative;
+    top :-13rem;
+    right: 25rem;
+}
